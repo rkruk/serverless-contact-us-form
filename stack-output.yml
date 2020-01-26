@@ -49,7 +49,7 @@ Resources:
             Path: /
           Type: Api
       Handler: index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs12.14.1
       Timeout: 5
     Type: AWS::Serverless::Function
   ContactUsSNSTopic:
